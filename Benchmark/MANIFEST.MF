@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: jbpt.jar jxl.jar
+Main-Class: edu.benchmark.algorithnm.GreedyCommonTransition

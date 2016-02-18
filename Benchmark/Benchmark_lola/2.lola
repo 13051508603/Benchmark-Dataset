@@ -1,0 +1,162 @@
+{ Petri net created by UML2oWFN 2.00 reading B2.xml.s00000073##s00004148 or split}
+
+PLACE
+  P1,
+  P2,
+  P3,
+  P4,
+  P5,
+  P6,
+  P7,
+  start,
+  P9,
+  P10,
+  P11,
+  P12,
+  P13,
+  P14,
+  P15,
+  P16,
+  P17,
+  P18,
+  P19,
+  P20,
+  P21,
+  P22,
+  end
+;
+
+
+MARKING
+  start:	1
+;
+
+
+TRANSITION A1
+CONSUME
+  P5:	1;
+PRODUCE
+  P2:	1,
+    P6:	1;
+
+TRANSITION A2
+CONSUME
+  P3:	1,
+    P10:	1;
+PRODUCE
+  P5:	1;
+
+TRANSITION A3
+CONSUME
+  P2:	1,
+    P6:	1;
+PRODUCE
+    P9:	1;
+
+TRANSITION A4
+CONSUME
+    P9:	1;
+PRODUCE
+  P1:	1,
+    P11:	1;
+
+TRANSITION A5
+CONSUME
+    P7:	1;
+PRODUCE
+  P3:	1,
+    P10:	1;
+    
+TRANSITION A6
+CONSUME
+  start:	1;
+PRODUCE
+  P4:	1;
+
+
+TRANSITION A7
+CONSUME
+  P1:	1,
+    P11:	1;
+PRODUCE
+	P13 : 1;
+
+TRANSITION A8
+CONSUME
+    P12:	1;
+PRODUCE
+    P7:	1;
+
+TRANSITION A9
+CONSUME
+  P4:	1;
+PRODUCE
+    P12:	1;
+    
+TRANSITION A10
+CONSUME
+  P13:	1;
+PRODUCE
+    end:	1;
+    
+TRANSITION A11
+CONSUME
+  P9:	1;
+PRODUCE
+    P14:	1;
+    
+TRANSITION A12
+CONSUME
+  P14:	1;
+PRODUCE
+    P15:	1;
+ 
+ TRANSITION A13
+CONSUME
+  P15:	1;
+PRODUCE
+    P16:	1;
+    
+TRANSITION A14
+CONSUME
+  P16:	1;
+PRODUCE
+    P17:	1;
+
+TRANSITION A15
+CONSUME
+  P17:	1;
+PRODUCE
+    P18:	1;
+    
+TRANSITION A16
+CONSUME
+  P18:	1;
+PRODUCE
+    P19:	1;
+    
+TRANSITION A17
+CONSUME
+  P19:	1;
+PRODUCE
+    P20:	1;
+    
+TRANSITION A18
+CONSUME
+  P20:	1;
+PRODUCE
+    P21:	1;
+    
+TRANSITION A19
+CONSUME
+  P21:	1;
+PRODUCE
+    P22:	1;
+    
+TRANSITION A20
+CONSUME
+  P22:	1;
+PRODUCE
+    P4:	1;
+    
+{ END OF FILE }

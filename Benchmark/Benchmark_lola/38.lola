@@ -1,0 +1,179 @@
+{ Petri net created by UML2oWFN 2.00 reading B1.xml.s00000591##s00004525 }
+PLACE
+    start,
+    P16,
+    P17,
+    P20,
+    P22,
+    P23,
+    P24,
+    P26,
+    P28,
+    P31,
+    P34,
+    P37,
+    P38,
+    P39,
+    P40,
+    P1,
+    P2,
+    P3,
+    P4,
+    P5,
+    P6,
+    P7
+;
+
+MARKING
+    start : 1
+;
+
+
+TRANSITION B2
+CONSUME
+    P20 : 1;
+PRODUCE
+    P31 : 1;
+
+TRANSITION B3
+CONSUME
+    start : 1;
+PRODUCE
+    P26 : 1;
+
+TRANSITION B5
+CONSUME
+    P34 : 1;
+PRODUCE
+    P20 : 1;
+
+
+TRANSITION B7
+CONSUME
+    P26 : 1;
+PRODUCE
+    P16 : 1;
+
+TRANSITION B8
+CONSUME
+    P16 : 1;
+PRODUCE
+    P34 : 1;
+
+
+TRANSITION B11
+CONSUME
+    P31 : 1;
+PRODUCE
+    P22 : 1;
+
+TRANSITION B12
+CONSUME
+    P22 : 1;
+PRODUCE
+    P37 : 1;
+
+TRANSITION B13
+CONSUME
+    P17 : 1;
+PRODUCE
+    P24 : 1;
+
+TRANSITION B14
+CONSUME
+    P24 : 1;
+PRODUCE
+    P23 : 1;
+
+
+TRANSITION B17
+CONSUME
+    P37 : 1;
+PRODUCE
+    P28 : 1;
+
+TRANSITION B18
+CONSUME
+    P28 : 1;
+PRODUCE
+    P17 : 1;
+
+TRANSITION B25
+CONSUME
+    P34 : 1;
+PRODUCE
+    P1 : 1;
+
+TRANSITION B26
+CONSUME
+    P1 : 1;
+PRODUCE
+    P2 : 1;
+
+TRANSITION B27
+CONSUME
+    P2 : 1;
+PRODUCE
+    P3 : 1;
+
+TRANSITION B28
+CONSUME
+    P3 : 1;
+PRODUCE
+    P37 : 1;
+
+TRANSITION B29
+CONSUME
+    P23 : 1;
+PRODUCE
+    P4 : 1;
+
+TRANSITION B30
+CONSUME
+    P4 : 1;
+PRODUCE
+    P5 : 1;
+
+TRANSITION B31
+CONSUME
+    P5 : 1;
+PRODUCE
+    P6 : 1;
+
+TRANSITION B32
+CONSUME
+    P6 : 1;
+PRODUCE
+    P7 : 1;
+
+TRANSITION B44
+CONSUME
+    P1 : 1;
+PRODUCE
+    P38 : 1;
+
+TRANSITION B45
+CONSUME
+    P38 : 1;
+PRODUCE
+    P40 : 1;
+
+TRANSITION B46
+CONSUME
+    P40 : 1;
+PRODUCE
+    P37 : 1;
+
+TRANSITION B47
+CONSUME
+    P1 : 1;
+PRODUCE
+    P39 : 1;
+
+TRANSITION B48
+CONSUME
+    P39 : 1;
+PRODUCE
+    P37 : 1;
+
+{ END OF FILE }

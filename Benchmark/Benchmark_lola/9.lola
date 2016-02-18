@@ -1,0 +1,52 @@
+{ Petri net created by UML2oWFN 2.00 reading B2.xml.s00000073##s00004148 or split}
+PLACE
+  P3,
+  P4,
+  P5,
+  P7,
+  start,
+  P10,
+  P12
+;
+
+
+MARKING
+  start:	1
+;
+
+
+TRANSITION A2
+CONSUME
+  P3:	1,
+    P10:	1;
+PRODUCE
+  P5:	1;
+  
+
+TRANSITION A5
+CONSUME
+    P7:	1;
+PRODUCE
+  P3:	1,
+    P10:	1;
+    
+TRANSITION A6
+CONSUME
+  start:	1;
+PRODUCE
+  P4:	1;
+
+
+TRANSITION A8
+CONSUME
+    P12:	1;
+PRODUCE
+    P7:	1;
+
+TRANSITION A9
+CONSUME
+  P4:	1;
+PRODUCE
+    P12:	1;
+    
+{ END OF FILE }

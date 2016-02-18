@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ptnetLoLA:PtNet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ptnetLoLA="http://www.informatik.hu-berlin.de/top/tools/editors/petrinets">
+  <places name="P3" incoming="//@arcs.2" outgoing="//@arcs.19"/>
+  <places name="P9" incoming="//@arcs.5" outgoing="//@arcs.1"/>
+  <places name="start" outgoing="//@arcs.11"/>
+  <places name="P10" incoming="//@arcs.12" outgoing="//@arcs.36"/>
+  <places name="P12" incoming="//@arcs.30" outgoing="//@arcs.26"/>
+  <places name="P17" incoming="//@arcs.20" outgoing="//@arcs.17"/>
+  <places name="P19" incoming="//@arcs.27" outgoing="//@arcs.21"/>
+  <places name="P20" incoming="//@arcs.24" outgoing="//@arcs.14"/>
+  <places name="P22" incoming="//@arcs.35" outgoing="//@arcs.8"/>
+  <places name="P23" incoming="//@arcs.13" outgoing="//@arcs.40"/>
+  <places name="P24" incoming="//@arcs.41" outgoing="//@arcs.42"/>
+  <places name="P25" incoming="//@arcs.43" outgoing="//@arcs.28"/>
+  <places name="P26" incoming="//@arcs.33" outgoing="//@arcs.34"/>
+  <places name="P29" incoming="//@arcs.22" outgoing="//@arcs.31"/>
+  <places name="P30" incoming="//@arcs.37" outgoing="//@arcs.38"/>
+  <places name="P34" incoming="//@arcs.39" outgoing="//@arcs.44"/>
+  <places name="P37" incoming="//@arcs.45" outgoing="//@arcs.29"/>
+  <places name="P40" incoming="//@arcs.18" outgoing="//@arcs.9"/>
+  <places name="P41" incoming="//@arcs.25" outgoing="//@arcs.4"/>
+  <places name="P43" incoming="//@arcs.23" outgoing="//@arcs.32"/>
+  <places name="P45" incoming="//@arcs.3" outgoing="//@arcs.6"/>
+  <places name="P1" incoming="//@arcs.15" outgoing="//@arcs.0"/>
+  <places name="P2" incoming="//@arcs.7" outgoing="//@arcs.16"/>
+  <places name="end" incoming="//@arcs.10"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E1" incoming="//@arcs.0 //@arcs.1" outgoing="//@arcs.2 //@arcs.3"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E2" incoming="//@arcs.4" outgoing="//@arcs.5"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E6" incoming="//@arcs.6" outgoing="//@arcs.7"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E8" incoming="//@arcs.8 //@arcs.9" outgoing="//@arcs.10"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E10" incoming="//@arcs.11" outgoing="//@arcs.12 //@arcs.13"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E11" incoming="//@arcs.14" outgoing="//@arcs.15"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E12" incoming="//@arcs.16 //@arcs.17" outgoing="//@arcs.18"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E13" incoming="//@arcs.19" outgoing="//@arcs.20"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E14" incoming="//@arcs.21" outgoing="//@arcs.22 //@arcs.23 //@arcs.24 //@arcs.25"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E19" incoming="//@arcs.26" outgoing="//@arcs.27"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E20" incoming="//@arcs.28 //@arcs.29" outgoing="//@arcs.30"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E23" incoming="//@arcs.31 //@arcs.32" outgoing="//@arcs.33"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E24" incoming="//@arcs.34" outgoing="//@arcs.35"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E27" incoming="//@arcs.36" outgoing="//@arcs.37"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E28" incoming="//@arcs.38" outgoing="//@arcs.39"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E33" incoming="//@arcs.40" outgoing="//@arcs.41"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E34" incoming="//@arcs.42" outgoing="//@arcs.43"/>
+  <transitions xsi:type="ptnetLoLA:TransitionExt" name="E35" incoming="//@arcs.44" outgoing="//@arcs.45"/>
+  <initialMarking>
+    <places place="//@places.2"/>
+  </initialMarking>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.21" target="//@transitions.0"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.1" target="//@transitions.0"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.0" target="//@places.0"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.0" target="//@places.20"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.18" target="//@transitions.1"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.1" target="//@places.1"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.20" target="//@transitions.2"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.2" target="//@places.22"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.8" target="//@transitions.3"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.17" target="//@transitions.3"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.3" target="//@places.23"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.2" target="//@transitions.4"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.4" target="//@places.3"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.4" target="//@places.9"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.7" target="//@transitions.5"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.5" target="//@places.21"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.22" target="//@transitions.6"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.5" target="//@transitions.6"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.6" target="//@places.17"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.0" target="//@transitions.7"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.7" target="//@places.5"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.6" target="//@transitions.8"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.8" target="//@places.13"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.8" target="//@places.19"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.8" target="//@places.7"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.8" target="//@places.18"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.4" target="//@transitions.9"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.9" target="//@places.6"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.11" target="//@transitions.10"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.16" target="//@transitions.10"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.10" target="//@places.4"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.13" target="//@transitions.11"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.19" target="//@transitions.11"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.11" target="//@places.12"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.12" target="//@transitions.12"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.12" target="//@places.8"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.3" target="//@transitions.13"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.13" target="//@places.14"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.14" target="//@transitions.14"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.14" target="//@places.15"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.9" target="//@transitions.15"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.15" target="//@places.10"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.10" target="//@transitions.16"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.16" target="//@places.11"/>
+  <arcs xsi:type="ptnetLoLA:ArcToTransition" source="//@places.15" target="//@transitions.17"/>
+  <arcs xsi:type="ptnetLoLA:ArcToPlace" source="//@transitions.17" target="//@places.16"/>
+  <finalMarking/>
+</ptnetLoLA:PtNet>
