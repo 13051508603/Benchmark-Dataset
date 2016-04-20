@@ -34,7 +34,7 @@ public class GreedyCommonTransition {
 			totalSimilarity =totalSimilarity +(1.0-context.getSimilarity());
 		}
 		fsubn = 2.0*totalSimilarity/((mapTasks.size()+mapPlaces.size())*2);
-		double similarity=1.0-(wskipn*fskipn+wskipn*fskipe+wsubn*fsubn)/(wskipn+wskipe+wsubn);
+		double similarity=1.0-(wskipn*fskipn+wskipe*fskipe+wsubn*fsubn)/(wskipn+wskipe+wsubn);
 		return similarity;
 	}
 	
