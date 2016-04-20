@@ -492,8 +492,6 @@ public class HungarianAlgorithm {
 		double[][] array = {{1,1.5,0},{0.5,1,0},{0,0,0.5}};
 		//generateRandomArray(array, "random"); // All elements within [0,1].
 		// </UNCOMMENT>
-
-		/******** ����С���У�������ת�� **************/
 		if (array.length > array[0].length) {
 			System.out.println("Array transposed (because rows>columns).\n"); // Cols
 																				// must
